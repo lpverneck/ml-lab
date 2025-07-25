@@ -1,0 +1,51 @@
+{
+  "skill_identifier": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given a job description, identify the most important technical skills needed for a successfully job appliance.",
+      "fields": [
+        {
+          "prefix": "Job Description:",
+          "description": "${job_description}"
+        },
+        {
+          "prefix": "Tech Skills:",
+          "description": "Ordered technical skills from most important to less important"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "skill_summary": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given a technical skill make a short summary showing what is it about and give some examples during the explanation. Also include examples of project based ideas to prove the knowledge about the skill.",
+      "fields": [
+        {
+          "prefix": "Tech Skill:",
+          "description": "${tech_skill}"
+        },
+        {
+          "prefix": "Skill Summary:",
+          "description": "A Markdown-formatted summary section"
+        },
+        {
+          "prefix": "Project Based Examples:",
+          "description": "${project_based_examples}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}
