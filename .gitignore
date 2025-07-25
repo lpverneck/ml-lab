@@ -10,3 +10,7 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# MLflow
+mlartifacts/
+mlruns/
