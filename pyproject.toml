@@ -12,6 +12,8 @@ dependencies = [
     "mlflow>=3.1.4",
     "numpy>=2.3.1",
     "pandas>=2.3.1",
+    "pydantic-settings>=2.10.1",
+    "pydantic[email]>=2.11.7",
     "python-dotenv>=1.1.1",
     "scikit-learn>=1.7.1",
 ]
